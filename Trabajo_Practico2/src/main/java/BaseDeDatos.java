@@ -1,5 +1,3 @@
-import org.apache.derby.jdbc.EmbeddedDriver;
-
 import java.lang.reflect.InvocationTargetException;
 import java.net.ConnectException;
 import java.sql.Connection;
@@ -11,8 +9,8 @@ public class BaseDeDatos {
 
     public static void main(String[] args) {
 
-        String driver = "org.apache.derby.jdbc.EmbeddedDriver";
-        String uri = "jdbc:derby:MyDerbyDB;create=true";
+        String driver = "com.mysql.cj.jdbc.Driver";
+        String uri = "jdbc:mysql://localhost:3306/exampleDB";
 
         try {
             Class.forName(driver).getDeclaredConstructor().newInstance();
@@ -35,7 +33,8 @@ public class BaseDeDatos {
 
 
         try {
-            Connection conn = DriverManager.getConnection(uri);
+            Connection conn = DriverManager.getConnection(uri,"manu", "kun");
+            conn.setAutoCommit(false);
             createTables(conn);
             addPerson(conn,1,"Manu",41);
             addPerson(conn,2,"Ana",40);

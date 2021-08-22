@@ -4,7 +4,19 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="27f9fdbd-46ec-4df3-a157-b04595894630" name="Default Changelist" comment="acomodando carpetas" />
+    <list default="true" id="27f9fdbd-46ec-4df3-a157-b04595894630" name="Default Changelist" comment="acomodando carpetas">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Trabajo_Practico1/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Trabajo_Practico1/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Trabajo_Practico1/.idea/jarRepositories.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Trabajo_Practico1/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Trabajo_Practico1/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Trabajo_Practico2/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Trabajo_Practico2/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Trabajo_Practico2/.idea/jarRepositories.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Trabajo_Practico2/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Trabajo_Practico2/.idea/vcs.xml" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -75,6 +87,8 @@
       <workItem from="1629660102853" duration="65000" />
       <workItem from="1629660175477" duration="22000" />
       <workItem from="1629660213331" duration="338000" />
+      <workItem from="1629660975541" duration="28000" />
+      <workItem from="1629661195525" duration="10000" />
     </task>
     <task id="LOCAL-00001" summary="acomodando carpetas">
       <created>1629660369393</created>

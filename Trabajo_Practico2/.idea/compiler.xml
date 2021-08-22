@@ -9,5 +9,8 @@
         <module name="ArquitecturasWeb" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="ArquitecturasWeb" target="11" />
+    </bytecodeTargetLevel>
   </component>
 </project>
