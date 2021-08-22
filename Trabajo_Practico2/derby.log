@@ -1,0 +1,13 @@
+----------------------------------------------------------------
+Sun Aug 22 15:39:57 ART 2021:
+Booting Derby version The Apache Software Foundation - Apache Derby - 10.15.2.0 - (1873585): instance a816c00e-017b-6f29-852c-0000066b7ef8 
+on database directory C:\Users\Manu\IdeaProjects\ArquitecturasWeb\MyDerbyDB with class loader jdk.internal.loader.ClassLoaders$AppClassLoader@368239c8 
+Loaded from file:/C:/Users/Manu/.m2/repository/org/apache/derby/derby/10.15.2.0/derby-10.15.2.0.jar
+java.vendor=JetBrains s.r.o.
+java.runtime.version=11.0.11+9-b1341.60
+user.dir=C:\Users\Manu\IdeaProjects\ArquitecturasWeb
+os.name=Windows 10
+os.arch=amd64
+os.version=10.0
+derby.system.home=null
+Database Class Loader started - derby.database.classpath=''
