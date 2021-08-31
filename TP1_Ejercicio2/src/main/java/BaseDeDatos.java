@@ -10,7 +10,7 @@ public class BaseDeDatos {
     public static void main(String[] args) {
 
         String driver = "com.mysql.cj.jdbc.Driver";
-        String uri = "jdbc:mysql://localhost:3306/exampleDB";
+        String uri = "jdbc:mysql://localhost:3306/exampledb";
 
         try {
             Class.forName(driver).getDeclaredConstructor().newInstance();
@@ -33,7 +33,7 @@ public class BaseDeDatos {
 
 
         try {
-            Connection conn = DriverManager.getConnection(uri,"manu", "kun");
+            Connection conn = DriverManager.getConnection(uri,"root", "");
             conn.setAutoCommit(false);
             createTables(conn);
             addPerson(conn,1,"Manu",41);
