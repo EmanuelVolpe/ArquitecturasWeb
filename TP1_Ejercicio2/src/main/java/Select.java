@@ -4,8 +4,8 @@ import java.sql.*;
 public class Select {
     public static void main(String[] args) {
 
-        String driver = "org.apache.derby.jdbc.EmbeddedDriver";
-        String uri = "jdbc:derby:MyDerbyDB;create=true";
+        String driver = "com.mysql.cj.jdbc.Driver";
+        String uri = "jdbc:mysql://localhost:3306/exampledb";
 
         try {
             Class.forName(driver).getDeclaredConstructor().newInstance();
@@ -27,7 +27,7 @@ public class Select {
         }
 
         try {
-            Connection conn = DriverManager.getConnection(uri);
+            Connection conn = DriverManager.getConnection(uri, "root", "");
             String select = "SELECT * FROM persona";
             PreparedStatement ps = conn.prepareStatement(select);
             ResultSet rs = ps.executeQuery();
