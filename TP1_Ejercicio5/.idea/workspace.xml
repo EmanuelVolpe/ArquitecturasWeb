@@ -4,7 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="cdd7ae62-cc51-489f-af1b-eb3ba74e2689" name="Changes" comment="agrega ejercicio 5" />
+    <list default="true" id="cdd7ae62-cc51-489f-af1b-eb3ba74e2689" name="Changes" comment="agrega ejercicio 5">
+      <change beforePath="$PROJECT_DIR$/../TP1_Ejercicio1/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../TP1_Ejercicio1/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TP1_Ejercicio1/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../TP1_Ejercicio1/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TP1_Ejercicio1/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../TP1_Ejercicio1/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TP1_Ejercicio2/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../TP1_Ejercicio2/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -49,7 +56,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.last.edited" value="SDKs" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
   </component>
@@ -89,7 +96,11 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1629672628591</updated>
-      <workItem from="1629672630034" duration="7019000" />
+      <workItem from="1629672630034" duration="7237000" />
+      <workItem from="1629752854744" duration="230000" />
+      <workItem from="1629754418533" duration="855000" />
+      <workItem from="1630352662799" duration="2647000" />
+      <workItem from="1630361321180" duration="1189000" />
     </task>
     <task id="LOCAL-00001" summary="agrega ejercicio 5">
       <created>1629687538912</created>
@@ -114,6 +125,7 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="agrega ejercicio 5" />

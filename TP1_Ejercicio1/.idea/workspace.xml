@@ -5,23 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5e478ddf-0999-4ba4-8ca8-77b427ea3efd" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/runConfigurations.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MyDerbyDB/db.lck" beforeDir="false" afterPath="$PROJECT_DIR$/MyDerbyDB/db.lck" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MyDerbyDB/log/log.ctrl" beforeDir="false" afterPath="$PROJECT_DIR$/MyDerbyDB/log/log.ctrl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MyDerbyDB/log/log1.dat" beforeDir="false" afterPath="$PROJECT_DIR$/MyDerbyDB/log/log1.dat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MyDerbyDB/log/logmirror.ctrl" beforeDir="false" afterPath="$PROJECT_DIR$/MyDerbyDB/log/logmirror.ctrl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MyDerbyDB/seg0/c60.dat" beforeDir="false" afterPath="$PROJECT_DIR$/MyDerbyDB/seg0/c60.dat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MyDerbyDB/seg0/c81.dat" beforeDir="false" afterPath="$PROJECT_DIR$/MyDerbyDB/seg0/c81.dat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/derby.log" beforeDir="false" afterPath="$PROJECT_DIR$/derby.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Trabajo_Practico2/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Trabajo_Practico2/.idea/compiler.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Trabajo_Practico2/.idea/jarRepositories.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Trabajo_Practico2/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Trabajo_Practico2/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TP1_Ejercicio5/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../TP1_Ejercicio5/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,6 +31,10 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="settings.editor.selected.configurable" value="configurable.group.tools" />
   </component>
   <component name="RunManager" selected="Application.Select">
     <configuration name="BaseDeDatos" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
@@ -76,6 +67,7 @@
       <option name="presentableId" value="Default" />
       <updated>1629661282304</updated>
       <workItem from="1629661283619" duration="89000" />
+      <workItem from="1629753121912" duration="1250000" />
     </task>
     <servers />
   </component>
@@ -92,8 +84,13 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>
