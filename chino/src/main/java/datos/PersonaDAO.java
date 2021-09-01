@@ -12,11 +12,8 @@ import dominio.*;
 public class PersonaDAO {
 
     private static final String SQL_SELECT = "SELECT id_persona, nombre, apellido, direccion FROM persona";
-<<<<<<< HEAD
     private static final String SQL_INSERT = "INSERT INTO persona (apellido, nombre, direccion) VALUES(?,?,?)";
     private static final String SQL_UPDATE = "UPDATE persona SET apellido = ?, nombre = ?, direccion = ? WHERE id_persona = ?";
-=======
->>>>>>> 724a550d7677c789c75d2a99d94195c930266440
 
     public List<Persona> seleccionar(){
         Connection conn = null;
@@ -36,13 +33,11 @@ public class PersonaDAO {
                 String direccion = resultSet.getString(4);
                 persona = new Persona(idPersona, apellido, nombre, direccion);
                 personas.add(persona);
-                //System.out.println(idPersona + ", " + apellido + ", " + nombre + ", " + direccion);
             }
         } catch (SQLException e) {
             e.printStackTrace(System.out);
         }
         finally {
-<<<<<<< HEAD
                 try {
                     Conexion.close(resultSet);
                     Conexion.close(preparedStatement);
@@ -75,7 +70,6 @@ public class PersonaDAO {
             } catch (SQLException e) {
                 e.printStackTrace(System.out);
             }
-
         }
         return registros;
     }
@@ -97,22 +91,13 @@ public class PersonaDAO {
         }
         finally {
             try {
-=======
-            try {
-                Conexion.close(resultSet);
->>>>>>> 724a550d7677c789c75d2a99d94195c930266440
                 Conexion.close(preparedStatement);
                 Conexion.close(conn);
             } catch (SQLException e) {
                 e.printStackTrace(System.out);
             }
-<<<<<<< HEAD
-
         }
         return registros;
-=======
-        }
-        return personas;
->>>>>>> 724a550d7677c789c75d2a99d94195c930266440
     }
+
 }

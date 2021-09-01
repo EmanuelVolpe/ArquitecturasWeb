@@ -6,11 +6,8 @@ public class Persona {
     private String nombre;
     private String apellido;
     private String direccion;
-
-<<<<<<< HEAD
     //CONSTRUCTOR QUE SIRVE PARA EL SELECT
-=======
->>>>>>> 724a550d7677c789c75d2a99d94195c930266440
+
     public Persona(int idPersona, String nombre, String apellido, String direccion) {
         this.idPersona = idPersona;
         this.nombre = nombre;
@@ -18,7 +15,6 @@ public class Persona {
         this.direccion = direccion;
     }
 
-<<<<<<< HEAD
     //CONSTRUCTOR QUE SIRVE PARA EL INSERT
     public Persona(String nombre, String apellido, String direccion) {
         this.nombre = nombre;
@@ -26,8 +22,6 @@ public class Persona {
         this.direccion = direccion;
     }
 
-=======
->>>>>>> 724a550d7677c789c75d2a99d94195c930266440
     public int getIdPersona() {
         return idPersona;
     }
