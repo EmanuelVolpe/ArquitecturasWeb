@@ -6,8 +6,8 @@ public class Persona {
     private String nombre;
     private String apellido;
     private String direccion;
-    //CONSTRUCTOR QUE SIRVE PARA EL SELECT
 
+    //CONSTRUCTOR QUE SIRVE PARA EL SELECT
     public Persona(int idPersona, String nombre, String apellido, String direccion) {
         this.idPersona = idPersona;
         this.nombre = nombre;
@@ -20,6 +20,10 @@ public class Persona {
         this.nombre = nombre;
         this.apellido = apellido;
         this.direccion = direccion;
+    }
+
+    public Persona(int idPersona) {
+        this.idPersona = idPersona;
     }
 
     public int getIdPersona() {

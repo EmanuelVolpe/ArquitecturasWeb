@@ -1,3 +1,5 @@
+package dominio;
+
 public class Direccion {
 
     private String calle;
@@ -26,7 +28,7 @@ public class Direccion {
 
     @Override
     public String toString() {
-        return "Direccion{" +
+        return "dominio.Direccion{" +
                 "calle='" + calle + '\'' +
                 ", numero=" + numero +
                 '}';

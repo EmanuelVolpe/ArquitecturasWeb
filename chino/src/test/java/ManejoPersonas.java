@@ -8,13 +8,17 @@ public class ManejoPersonas {
 
         PersonaDAO personaDAO = new PersonaDAO();
 
-        //INSERTANDO UN NUEVO OBJETO DE TIPO PERSONA EN LA DDBB
-        //Persona personaNueva = new Persona("Eric", "Unzue", "Roca 600");
-        //personaDAO.insertar(personaNueva);
+        /*INSERTANDO UN NUEVO OBJETO DE TIPO PERSONA EN LA DDBB
+        Persona personaNueva = new Persona("Eric", "Unzue", "Roca 600");
+        personaDAO.insertar(personaNueva);*/
 
-        //ACTUALIZO UNA PERSONA EXISTENTE
+        /*ACTUALIZO UNA PERSONA EXISTENTE
         Persona personaNueva = new Persona(5, "Mica", "Yaquinta", "Castelli 1000");
-        personaDAO.actualizar(personaNueva);
+        personaDAO.actualizar(personaNueva);*/
+
+        //ELIMINO UNA PERSONA EXISTENTE
+        Persona personaNueva = new Persona(5);
+        personaDAO.eliminar(personaNueva);
 
         List<Persona> personas = personaDAO.seleccionar();
 
